@@ -1,7 +1,7 @@
 DisplayTag
 ==========
 
-## Why this repository?
+### Why this repository?
 
 This is a fork of the SVN displaytag repository at http://svn.code.sf.net/p/displaytag/code/
 
@@ -9,21 +9,21 @@ I did it because the SVN repository seems dead, and I wanted to share the "View 
 
 The display tag library is an open source suite of custom tags for JSP that provide high-level web presentation patterns which will work in an MVC model.
 
-## Structure of the repository
+### Structure of the repository
 
 I converted the SVN repository to a git repository: all the history of the original 
 repository is then saved.
 
-## How did I convert the SVN repository?
+### How did I convert the SVN repository?
 
-1. First, clone the SVN repository into a git one which will be only temporary. I do this in a ~/git folder containing all my git repositories
+- First, clone the SVN repository into a git one which will be only temporary. I do this in a ~/git folder containing all my git repositories
 - `git svn clone --stdlayout http://svn.code.sf.net/p/displaytag/code temp-displaytag`
-2. Then, I'm connecting to a server which will contain the final repository. Create a bare remote repository.
+- Then, I'm connecting to a server which will contain the final repository. Create a bare remote repository.
 - `git init --bare displaytag.git`
-3. Make the symbolic reference HEAD point to refs/heads/trunk (default branch in SVN, instead of master)
+- Make the symbolic reference HEAD point to refs/heads/trunk (default branch in SVN, instead of master)
 - `cd displaytag.git`
 - `git symbolic-ref HEAD refs/heads/trunk`
-4. I come back to the temporary repository to push it to the remote one.
+- I come back to the temporary repository to push it to the remote one.
 - `cd temp-displaytag`
 - Add remote repository
 - `git remote add origin login@remotehost:/path/to/git/displaytag.git`
@@ -33,13 +33,13 @@ repository is then saved.
 - `git push origin`
 - Delete the temporary repository
 - `rm -rf temp-displaytag/`
-5. Switch to the remote repository and rename the `trunk`branch to `master`
+- Switch to the remote repository and rename the `trunk`branch to `master`
 - `git branch -m trunk master`
-6. git svn converts SVN tags to branches: you have to convert them to real git tags
+- git svn converts SVN tags to branches: you have to convert them to real git tags
 - `git for-each-ref --format='%(refname)' refs/heads/tags | cut -d / -f 4 | while read ref;`
 - `do git tag "$ref" "refs/heads/tags/$ref"; git branch -D "tags/$ref"; done`
 
-## How did I pushed the repository on Github?
+### How did I pushed the repository on Github?
 
 I used Eclipse + m2e plugin for Maven.
 
