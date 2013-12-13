@@ -272,6 +272,19 @@
         created by displaytag, and it must exist in page.
       </description>
     </attribute>
+    <attribute>
+      <name>showViewAllResults</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>boolean</type>
+      <description>
+        If there is more than one page of results, shows the "View all results" link 
+        next to the pagination header. This feature is disabled by default. 
+        When the user clicks on the link, a new dynamic parameter is generated
+        (ends with "viewall", on the same scheme as parameters p, o, s) 
+        and will be sent on each request (the value 1 is assigned).        
+      </description>
+    </attribute>
     <example>
       <![CDATA[
 <display:table name="someList" export="true" id="row" requestURI="MyAction.do">

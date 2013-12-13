@@ -49,6 +49,7 @@ import org.displaytag.util.TagConstants;
  * A table writer that formats a table in HTML and writes it to a JSP page.
  * @author Fabrizio Giustina
  * @author Jorge L. Barroso
+ * @author Sodara Hang
  * @version $Id$
  * @see org.displaytag.render.TableWriterTemplate
  * @since 1.1
@@ -533,6 +534,11 @@ public class HtmlTableWriter extends TableWriterAdapter
             {
                 href.addParameter(encodeParameter(TableTagParameters.PARAMETER_PAGE), 1);
             }
+            
+            // If the flag viewAllResults is activated, keep the parameter in the headers
+            if (this.tableModel.isViewAllResults()) {
+            	href.addParameter(encodeParameter(TableTagParameters.PARAMETER_VIEW_ALL_RESULTS), 1);
+            }
         }
         else
         {
@@ -635,7 +641,10 @@ public class HtmlTableWriter extends TableWriterAdapter
                     navigationHref.addParameter(properties.getPaginationSearchIdParam(), paginatedList.getSearchId());
                 }
             }
-            write(this.listHelper.getPageNavigationBar(navigationHref, pageParameter));
+            // Generate the viewAllResultsParameter
+            String viewAllResultsParameter = encodeParameter(TableTagParameters.PARAMETER_VIEW_ALL_RESULTS);
+            
+            write(this.listHelper.getPageNavigationBar(navigationHref, pageParameter, viewAllResultsParameter, tableModel.isShowViewAllResults()));
         }
     }
 

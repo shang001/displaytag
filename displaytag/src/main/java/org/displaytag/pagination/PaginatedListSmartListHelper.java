@@ -24,6 +24,7 @@ import org.displaytag.util.Href;
  * An implementation of SmartListHelper used for externally sorted and paginated lists. It duplicates nearly all of its
  * superclass, so these two classes should be refactored
  * @author JBN
+ * @author Sodara Hang
  */
 public class PaginatedListSmartListHelper extends SmartListHelper
 {
@@ -104,14 +105,14 @@ public class PaginatedListSmartListHelper extends SmartListHelper
         }
     }
 
-    public String getPageNavigationBar(Href baseHref, String pageParameter)
+    public String getPageNavigationBar(Href baseHref, String pageParameter, String viewAllResultsParameter, boolean showViewAllResults)
     {
 
         int groupSize = this.properties.getPagingGroupSize();
         int startPage;
         int endPage;
 
-        Pagination pagination = new Pagination(baseHref, pageParameter, this.properties);
+        Pagination pagination = new Pagination(baseHref, pageParameter, viewAllResultsParameter, this.properties);
         pagination.setCurrent(new Integer(paginatedList.getPageNumber()));
 
         // if no items are found still add pagination?
@@ -144,23 +145,29 @@ public class PaginatedListSmartListHelper extends SmartListHelper
         }
 
         // format for previous/next banner
-        String bannerFormat;
-
+        String bannerFormat = "";
+        
+        // Add the "View all Results" link if show all results is activated
+        // and if we have more than one page
+        if (showViewAllResults && !pagination.isOnePage()) {
+        	bannerFormat = this.properties.getPagingBannerViewAllResults();
+        }
+        
         if (pagination.isOnePage())
         {
-            bannerFormat = this.properties.getPagingBannerOnePage();
+            bannerFormat += this.properties.getPagingBannerOnePage();
         }
         else if (pagination.isFirst())
         {
-            bannerFormat = this.properties.getPagingBannerFirst();
+            bannerFormat += this.properties.getPagingBannerFirst();
         }
         else if (pagination.isLast())
         {
-            bannerFormat = this.properties.getPagingBannerLast();
+            bannerFormat += this.properties.getPagingBannerLast();
         }
         else
         {
-            bannerFormat = this.properties.getPagingBannerFull();
+            bannerFormat += this.properties.getPagingBannerFull();
         }
 
         return pagination.getFormattedBanner(this.properties.getPagingPageLink(), this.properties

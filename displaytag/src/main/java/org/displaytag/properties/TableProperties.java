@@ -51,7 +51,8 @@ import org.displaytag.util.RequestHelperFactory;
  * </ol>
  * @author Fabrizio Giustina
  * @author rapruitt
- * @version $Revision$ ($Author$)
+ * @author Sodara Hang
+ * @version $Revision: 1166 $ ($Author: rapruitt $)
  */
 public final class TableProperties implements Cloneable
 {
@@ -178,6 +179,11 @@ public final class TableProperties implements Cloneable
     public static final String PROPERTY_STRING_PAGING_BANNER_FULL = "paging.banner.full"; //$NON-NLS-1$
 
     /**
+     * property <code>paging.banner.viewallresults</code>.
+     */
+    public static final String PROPERTY_STRING_PAGING_BANNER_VIEW_ALL_RESULTS = "paging.banner.viewallresults";
+
+	/**
      * property <code>paging.banner.page.link</code>.
      */
     public static final String PROPERTY_STRING_PAGING_PAGE_LINK = "paging.banner.page.link"; //$NON-NLS-1$
@@ -803,6 +809,15 @@ public final class TableProperties implements Cloneable
     {
         return getProperty(PROPERTY_STRING_PAGING_BANNER_FULL);
     }
+    
+    /**
+     * Getter for the <code>PROPERTY_STRING_PAGING_BANNER_VIEW_ALL_RESULTS</code> property.
+     * @return String
+     */
+    public String getPagingBannerViewAllResults() 
+    {
+		return getProperty(PROPERTY_STRING_PAGING_BANNER_VIEW_ALL_RESULTS);
+	}
 
     /**
      * Getter for the <code>PROPERTY_STRING_PAGING_PAGE_LINK</code> property.

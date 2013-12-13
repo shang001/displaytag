@@ -21,13 +21,15 @@ import org.apache.commons.lang.builder.ToStringStyle;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.displaytag.properties.TableProperties;
+import org.displaytag.tags.TableTagParameters;
 import org.displaytag.util.Href;
 
 
 /**
  * Helper class for generation of paging banners.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @author Sodara Hang
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class Pagination
 {
@@ -46,6 +48,11 @@ public class Pagination
      * page parameter name.
      */
     private String pageParam;
+    
+    /**
+     * view all results parameter name.
+     */
+    private String viewAllResultsParam;
 
     /**
      * first page.
@@ -88,11 +95,12 @@ public class Pagination
      * @param baseHref Href used for links
      * @param pageParameter name for the page parameter
      */
-    public Pagination(Href baseHref, String pageParameter, TableProperties properties)
+    public Pagination(Href baseHref, String pageParameter, String viewAllResultsParam, TableProperties properties)
     {
         this.href = baseHref;
         this.pageParam = pageParameter;
         this.properties = properties;
+        this.viewAllResultsParam = viewAllResultsParam;
     }
 
     /**
@@ -274,6 +282,7 @@ public class Pagination
         // {4} last page url
         // {5} current page
         // {6} total pages
+        // {7} "view all results" url
         Object[] pageObjects = {
             numberedPageString,
             ((Href) this.href.clone()).addParameter(this.pageParam, getFirst()),
@@ -281,7 +290,8 @@ public class Pagination
             ((Href) this.href.clone()).addParameter(this.pageParam, getNext()),
             ((Href) this.href.clone()).addParameter(this.pageParam, getLast()),
             this.currentPage,
-            this.isLast() ? this.currentPage : this.lastPage}; // this.lastPage is null if the last page is displayed
+            this.isLast() ? this.currentPage : this.lastPage, // this.lastPage is null if the last page is displayed
+            ((Href) this.href.clone()).addParameter(this.viewAllResultsParam, 1)}; 
 
         // return the full banner
         return MessageFormat.format(fullBanner, pageObjects);

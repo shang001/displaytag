@@ -32,7 +32,8 @@ import org.displaytag.util.Href;
  * </p>
  * @author epesh
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @author Sodara Hang
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class SmartListHelper
 {
@@ -294,16 +295,18 @@ public class SmartListHelper
      * urlFormatString should be a URL that looks like the following: somepage.page?page={0}
      * @param baseHref Href used for links
      * @param pageParameter name for the page parameter
+     * @param viewAllResultsParameter name for the view all results parameter
+     * @param showViewAllResults if we show or not the "View all results" link
      * @return String
      */
-    public String getPageNavigationBar(Href baseHref, String pageParameter)
+    public String getPageNavigationBar(Href baseHref, String pageParameter, String viewAllResultsParameter, boolean showViewAllResults)
     {
 
         int groupSize = this.properties.getPagingGroupSize();
         int startPage;
         int endPage;
 
-        Pagination pagination = new Pagination(baseHref, pageParameter, this.properties);
+        Pagination pagination = new Pagination(baseHref, pageParameter, viewAllResultsParameter, this.properties);
         pagination.setCurrent(new Integer(this.currentPage));
 
         // if no items are found still add pagination?
@@ -344,24 +347,30 @@ public class SmartListHelper
         }
 
         // format for previous/next banner
-        String bannerFormat;
+        String bannerFormat = "";
+        
+        // Add the "View all Results" link if show all results is activated   
+        // and if we have more than one page
+        if (showViewAllResults && !pagination.isOnePage()) {
+        	bannerFormat = this.properties.getPagingBannerViewAllResults();
+        }
 
         if (pagination.isOnePage())
         {
-            bannerFormat = this.properties.getPagingBannerOnePage();
+            bannerFormat += this.properties.getPagingBannerOnePage();
         }
         else if (pagination.isFirst())
         {
-            bannerFormat = this.properties.getPagingBannerFirst();
+            bannerFormat += this.properties.getPagingBannerFirst();
         }
         else if (pagination.isLast())
         {
-            bannerFormat = this.properties.getPagingBannerLast();
+            bannerFormat += this.properties.getPagingBannerLast();
         }
         else
         {
-            bannerFormat = this.properties.getPagingBannerFull();
-        }
+            bannerFormat += this.properties.getPagingBannerFull();
+        }       
 
         return pagination.getFormattedBanner(this.properties.getPagingPageLink(), this.properties
             .getPagingPageSelected(), this.properties.getPagingPageSeparator(), bannerFormat);

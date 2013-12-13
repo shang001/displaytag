@@ -30,7 +30,8 @@ import org.displaytag.render.TableTotaler;
 /**
  * Table Model. Holds table data for presentation.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @author Sodara Hang
+ * @version $Revision: 1172 $ ($Author: rapruitt $)
  */
 public class TableModel
 {
@@ -131,6 +132,16 @@ public class TableModel
     private String form;
 
     private TableTotaler totaler;
+    
+    /**
+     * Flag for viewing all results instead of pagination. (Default false)
+     */
+    private boolean viewAllResults = false;
+    
+    /**
+     * Flag for showing the link View all results on the page. (Default false)
+     */
+    private boolean showViewAllResults = false;
 
     /**
      * Constructor for TableModel.
@@ -610,9 +621,26 @@ public class TableModel
         this.totaler = totaler;
     }
 
-    public void reset()
+    public boolean isViewAllResults() {
+		return viewAllResults;
+	}
+
+	public void setViewAllResults(boolean viewAllResults) {
+		this.viewAllResults = viewAllResults;
+	}
+
+	public boolean isShowViewAllResults() {
+		return showViewAllResults;
+	}
+
+	public void setShowViewAllResults(boolean showViewAllResults) {
+		this.showViewAllResults = showViewAllResults;
+	}
+	
+	public void reset()
     {
         totaler.reset();
         totaler.init(this);
     }
+
 }

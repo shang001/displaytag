@@ -77,7 +77,8 @@ import org.displaytag.util.TagConstants;
  * functionality as the struts tag.
  * @author mraible
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @author Sodara Hang
+ * @version $Revision: 1172 $ ($Author: rapruitt $)
  */
 public class TableTag extends HtmlTableTag
 {
@@ -329,6 +330,11 @@ public class TableTag extends HtmlTableTag
     private String totalerName;
 
     /**
+     * Show the link "View all results" next to the pagination header.
+     */
+    private boolean showViewAllResults;
+
+	/**
      * Is this the last iteration?
      * @return boolean <code>true</code> if this is the last iteration
      */
@@ -648,8 +654,13 @@ public class TableTag extends HtmlTableTag
     public String getUid()
     {
         return this.uid;
-    }
+    }    
 
+	public void setShowViewAllResults(boolean showViewAllResults) 
+	{
+		this.showViewAllResults = showViewAllResults;
+	}
+	
     /**
      * Returns the properties.
      * @return TableProperties
@@ -667,7 +678,8 @@ public class TableTag extends HtmlTableTag
     protected Href getBaseHref()
     {
         return this.baseHref;
-    }
+    }    
+    
 
     /**
      * Called by interior column tags to help this tag figure out how it is supposed to display the information in the
@@ -928,7 +940,7 @@ public class TableTag extends HtmlTableTag
         {
             // first time initialization
             rhf = this.properties.getRequestHelperFactoryInstance();
-        }
+        }                      
 
         String fullName = getFullObjectName();
 
@@ -955,6 +967,22 @@ public class TableTag extends HtmlTableTag
         HttpServletRequest request = (HttpServletRequest) this.pageContext.getRequest();
         RequestHelper requestHelper = rhf.getRequestHelperInstance(this.pageContext);
 
+        // if viewAllResults set to 1, modify the corresponding flag in the model        
+        Integer viewAllResultsParameter = getFromRequestOrSession(
+                request,
+                requestHelper,
+                TableTagParameters.PARAMETER_VIEW_ALL_RESULTS);
+        boolean viewAllResultsActivated = (viewAllResultsParameter == null) ? false : (viewAllResultsParameter == 1);
+        if (viewAllResultsActivated) {
+        	this.tableModel.setViewAllResults(true);
+        }        
+        // Copy the flag show "View all results" link to the model for use by the HtmlTableWriter
+        tableModel.setShowViewAllResults(this.showViewAllResults);
+        // If viewAllResults flag is true, view all the results
+        if (this.tableModel.isViewAllResults()) {
+        	this.pagesize = 0;
+        }
+        
         initHref(requestHelper);
 
         Integer pageNumberParameter = getFromRequestOrSession(request, requestHelper, TableTagParameters.PARAMETER_PAGE);
@@ -1123,6 +1151,7 @@ public class TableTag extends HtmlTableTag
         {
             filteredRows = new LongRange(1, Long.MAX_VALUE);
         }
+        
     }
 
     /**
@@ -1631,6 +1660,7 @@ public class TableTag extends HtmlTableTag
         List fullList = CollectionUtil.getListFromObject(originalData, this.offset, this.length);
 
         int pageOffset = this.offset;
+        
         // If they have asked for just a page of the data, then use the
         // SmartListHelper to figure out what page they are after, etc...
         if (this.paginatedList == null && this.pagesize > 0)

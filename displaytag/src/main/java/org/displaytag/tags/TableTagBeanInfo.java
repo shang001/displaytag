@@ -24,7 +24,8 @@ import org.apache.commons.lang.UnhandledException;
  * Beaninfo class for tableTag. Needed to make the "class" tag attribute working and to handle the swith between
  * setName() and setNameString() setters for the name attribute.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @author Sodara Hang
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class TableTagBeanInfo extends SimpleBeanInfo
 {
@@ -90,7 +91,9 @@ public class TableTagBeanInfo extends SimpleBeanInfo
                 TableTag.class, null, "setClearStatus")); //$NON-NLS-1$
             proplist.add(new PropertyDescriptor("form", //$NON-NLS-1$
                 TableTag.class, null, "setForm")); //$NON-NLS-1$
-
+            proplist.add(new PropertyDescriptor("showViewAllResults", //$NON-NLS-1$
+                    TableTag.class, null, "setShowViewAllResults")); //$NON-NLS-1$
+            
             // deprecated attributes
             proplist.add(new PropertyDescriptor("list", //$NON-NLS-1$
                 TableTag.class, null, "setList")); //$NON-NLS-1$

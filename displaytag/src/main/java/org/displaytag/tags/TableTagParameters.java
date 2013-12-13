@@ -14,7 +14,8 @@ package org.displaytag.tags;
 /**
  * Constants for parameter names.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @author Sodara Hang
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public final class TableTagParameters
 {
@@ -50,6 +51,12 @@ public final class TableTagParameters
      */
     public static final String PARAMETER_EXPORTING = "6578706f7274"; //$NON-NLS-1$
 
+    /**
+     * name of the parameter specifying if we want to see all results instead of
+     * using pagination.
+     */
+    public static final String PARAMETER_VIEW_ALL_RESULTS = "viewall"; //$NON-NLS-1$
+    
     /**
      * sort only the displayed page.
      */
