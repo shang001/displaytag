@@ -12,6 +12,7 @@ import org.junit.Assert;
 /**
  * Test case for MessageFormatColumnDecoratorTest.
  * @author Fabrizio Giustina
+ * @author Sodara Hang
  * @version $Id$
  */
 public class MessageFormatColumnDecoratorTest extends TestCase
@@ -34,7 +35,7 @@ public class MessageFormatColumnDecoratorTest extends TestCase
             new Date(0),
             null,
             null);
-        Assert.assertEquals("day is " + new SimpleDateFormat("EEEE").format(new Date(0)), result);
+        Assert.assertEquals("day is " + new SimpleDateFormat("EEEE", Locale.ENGLISH).format(new Date(0)), result);
     }
 
     /**

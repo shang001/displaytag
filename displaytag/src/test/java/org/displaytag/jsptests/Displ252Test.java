@@ -1,6 +1,7 @@
 package org.displaytag.jsptests;
 
 import java.text.SimpleDateFormat;
+import java.util.Locale;
 
 import org.displaytag.test.DisplaytagCase;
 import org.displaytag.test.KnownTypes;
@@ -16,6 +17,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-252 - Multiple (chained) column decorators
  * @author Fabrizio Giustina
+ * @author Sodara Hang
  * @version $Id$
  */
 public class Displ252Test extends DisplaytagCase
@@ -50,7 +52,7 @@ public class Displ252Test extends DisplaytagCase
         Assert.assertEquals("Wrong number of tables.", 1, tables.length);
 
         Assert.assertEquals("Value not decorated as expected", "decorated: "
-            + new SimpleDateFormat("EEEE").format(new KnownTypes().getTime()), tables[0].getCellAsText(1, 0));
+            + new SimpleDateFormat("EEEE", Locale.ENGLISH).format(new KnownTypes().getTime()), tables[0].getCellAsText(1, 0));
 
     }
 }
