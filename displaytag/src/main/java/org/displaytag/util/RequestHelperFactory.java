@@ -22,7 +22,7 @@ import javax.servlet.jsp.PageContext;
  * A custom RequestHelperFactory can return a different RequestHelper implementation (the
  * {@link DefaultRequestHelperFactory}returns instaces of {@link DefaultRequestHelper})
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public interface RequestHelperFactory
 {

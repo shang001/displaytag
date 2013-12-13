@@ -35,7 +35,7 @@ import org.displaytag.model.TableModel;
  * </p>
  * @author mraible
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1164 $ ($Author: rapruitt $)
  */
 abstract class Decorator
 {

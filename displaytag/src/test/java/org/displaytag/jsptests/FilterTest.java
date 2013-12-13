@@ -19,7 +19,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests the ResponseOverrideFilter.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class FilterTest extends DisplaytagCase
 {

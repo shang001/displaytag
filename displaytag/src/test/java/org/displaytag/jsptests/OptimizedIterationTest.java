@@ -16,7 +16,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for optimized iterations (don't evaluate unneeded body of columns).
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class OptimizedIterationTest extends DisplaytagCase
 {

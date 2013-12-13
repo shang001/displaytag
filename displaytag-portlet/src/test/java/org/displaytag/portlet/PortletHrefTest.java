@@ -25,7 +25,7 @@ import org.springframework.mock.web.portlet.MockRenderResponse;
 
 /**
  * @author Eric Dalquist <a href="mailto:edalquist@unicon.net">edalquist@unicon.net</a>
- * @version $Id$
+ * @version $Id: PortletHrefTest.java 1100 2007-08-14 19:48:25Z fgiust $
  */
 public class PortletHrefTest extends TestCase
 {

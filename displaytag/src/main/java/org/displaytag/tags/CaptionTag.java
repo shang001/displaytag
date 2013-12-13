@@ -27,7 +27,7 @@ import org.displaytag.util.TagConstants;
 /**
  * Simple caption tag which mimics a standard html caption.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class CaptionTag extends BodyTagSupport implements MediaUtil.SupportsMedia
 {

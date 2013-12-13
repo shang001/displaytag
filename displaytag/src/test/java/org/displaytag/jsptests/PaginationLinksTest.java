@@ -16,7 +16,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Testcase for #944056.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class PaginationLinksTest extends DisplaytagCase
 {

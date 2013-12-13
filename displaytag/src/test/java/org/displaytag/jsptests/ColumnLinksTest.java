@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for dynamic links.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ColumnLinksTest extends DisplaytagCase
 {

@@ -22,7 +22,7 @@ import org.displaytag.util.LookupUtil;
  * Base template class.
  * @author bgsmith
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public abstract class TemplateTag extends BodyTagSupport
 {

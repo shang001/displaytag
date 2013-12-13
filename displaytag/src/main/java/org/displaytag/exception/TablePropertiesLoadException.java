@@ -17,7 +17,7 @@ import org.displaytag.Messages;
 /**
  * Runtime exception thrown for problems in loading the (standard or user defined) property file.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class TablePropertiesLoadException extends BaseNestableRuntimeException
 {

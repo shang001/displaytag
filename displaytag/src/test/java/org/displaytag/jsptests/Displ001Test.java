@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for DISPL-1 - Autolink and maxlength problem.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ001Test extends DisplaytagCase
 {

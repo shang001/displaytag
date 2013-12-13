@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  * Buffers the response; will not send anything directly through to the actual response. Note that this blocks the
  * content-type from being set, you must set it manually in the response.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public interface BufferedResponseWrapper extends HttpServletResponse
 {

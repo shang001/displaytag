@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for content in column body.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ColumnBodyTest extends DisplaytagCase
 {

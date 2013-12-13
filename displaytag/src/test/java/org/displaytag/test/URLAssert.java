@@ -9,7 +9,7 @@ import org.apache.commons.lang.StringUtils;
 /**
  * Assert class used to compare URLs.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1125 $ ($Author: fgiust $)
  */
 public final class URLAssert
 {

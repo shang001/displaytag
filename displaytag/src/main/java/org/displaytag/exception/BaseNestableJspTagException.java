@@ -21,7 +21,7 @@ import org.displaytag.Messages;
 /**
  * Base exception: extendes JspTagException providing logging and exception nesting functionalities.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public abstract class BaseNestableJspTagException extends JspTagException
 {

@@ -19,7 +19,7 @@ import org.displaytag.Messages;
 /**
  * Base runtime exception: extendes RuntimeException providing logging and exception nesting functionalities.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public abstract class BaseNestableRuntimeException extends RuntimeException
 {

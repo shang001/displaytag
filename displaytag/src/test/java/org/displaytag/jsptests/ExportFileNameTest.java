@@ -15,7 +15,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for export file name property.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ExportFileNameTest extends DisplaytagCase
 {

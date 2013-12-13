@@ -15,7 +15,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Test for DISPL-109 - Center of paging banner number.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ109Test extends DisplaytagCase
 {

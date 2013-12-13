@@ -27,7 +27,7 @@ import org.displaytag.model.TableModel;
 /**
  * A table decorator which adds checkboxes for selectable rows.
  * @author Fabrizio Giustina
- * @version $Id$
+ * @version $Id: CheckboxTableDecorator.java 1160 2009-01-02 15:17:02Z fgiust $
  */
 public class CheckboxTableDecorator extends TableDecorator
 {

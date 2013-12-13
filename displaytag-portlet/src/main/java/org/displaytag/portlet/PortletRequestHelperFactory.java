@@ -20,7 +20,7 @@ import org.displaytag.util.RequestHelperFactory;
 /**
  * Generates {@link PortletRequestHelper} objects.
  * @author Eric Dalquist <a href="mailto:dalquist@gmail.com">dalquist@gmail.com</a>
- * @version $Id$
+ * @version $Id: PortletRequestHelperFactory.java 996 2006-01-06 15:34:08Z fgiust $
  */
 public class PortletRequestHelperFactory implements RequestHelperFactory
 {

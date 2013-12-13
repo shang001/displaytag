@@ -29,7 +29,7 @@ import org.displaytag.util.RequestHelper;
  * <br>
  * If the pluto portlet container is being used these objects should be setup appropriatly already.
  * @author Eric Dalquist <a href="mailto:dalquist@gmail.com">dalquist@gmail.com</a>
- * @version $Id$
+ * @version $Id: PortletRequestHelper.java 996 2006-01-06 15:34:08Z fgiust $
  */
 public class PortletRequestHelper implements RequestHelper
 {

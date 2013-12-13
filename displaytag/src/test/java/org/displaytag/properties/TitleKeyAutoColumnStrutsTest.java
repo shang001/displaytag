@@ -10,7 +10,7 @@ import org.junit.Test;
 /**
  * I18n test with Struts adapter.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class TitleKeyAutoColumnStrutsTest extends AbstractTitleKeyAutoColumnTest
 {

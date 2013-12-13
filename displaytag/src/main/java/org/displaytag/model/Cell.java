@@ -27,7 +27,7 @@ import java.text.Collator;
  * iteration.
  * </p>
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1161 $ ($Author: rapruitt $)
  */
 public class Cell implements Comparable, Cloneable
 {

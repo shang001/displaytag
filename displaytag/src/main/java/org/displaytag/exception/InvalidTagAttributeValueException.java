@@ -17,7 +17,7 @@ import org.displaytag.Messages;
 /**
  * Exception thrown when an invalid value is given for a tag attribute.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class InvalidTagAttributeValueException extends BaseNestableJspTagException
 {

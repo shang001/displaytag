@@ -19,7 +19,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for pdf export.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ExportPdfFilterTest extends DisplaytagCase
 {

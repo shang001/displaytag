@@ -21,7 +21,7 @@ import org.displaytag.exception.TagStructureException;
 /**
  * @author epesh
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class SetPropertyTag extends BodyTagSupport
 {

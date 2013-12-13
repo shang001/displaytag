@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Testcase for "excludedParams" table attribute.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ExcludedParamsTest extends DisplaytagCase
 {

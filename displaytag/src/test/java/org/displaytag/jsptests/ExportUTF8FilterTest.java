@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Test for #968559.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ExportUTF8FilterTest extends ExportUTF8Test
 {

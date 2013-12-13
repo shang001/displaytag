@@ -28,7 +28,7 @@ import javax.servlet.jsp.tagext.VariableInfo;
  * <li>table uid + ROWNUM_SUFFIX = row number</li>
  * </ul>
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class TableTagExtraInfo extends TagExtraInfo
 {

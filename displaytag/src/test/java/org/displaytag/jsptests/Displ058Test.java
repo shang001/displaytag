@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for DISPL-58 - Additional attribute: specify property used for sorting.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ058Test extends DisplaytagCase
 {

@@ -21,7 +21,7 @@ import org.apache.commons.collections.IteratorUtils;
 /**
  * Utility methods for collection handling.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public final class CollectionUtil
 {

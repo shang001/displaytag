@@ -7,7 +7,7 @@ import org.apache.commons.lang.builder.ToStringStyle;
 /**
  * Simple test objects which wraps an int value.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class NumberedItem
 {

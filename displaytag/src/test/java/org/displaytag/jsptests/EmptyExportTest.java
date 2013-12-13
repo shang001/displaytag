@@ -12,7 +12,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests export with a null list.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class EmptyExportTest extends DisplaytagCase
 {

@@ -23,7 +23,7 @@ import org.apache.commons.logging.LogFactory;
  * are passing the request to this servlet which calls the filter and then forward the request to the given path without
  * ".filtered". <strong>Replaced by native filter support in ServletUnit 1.6. </strong>
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class MockFilterSupport extends HttpServlet
 {

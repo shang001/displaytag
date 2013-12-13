@@ -19,7 +19,7 @@ import org.displaytag.model.TableModel;
  * default, no parameters constructor is required. The <code>setParameters()</code> method is guarantee to be called
  * before any other operation.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public interface ExportView
 {

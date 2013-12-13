@@ -31,7 +31,7 @@ import org.displaytag.tags.TableTagParameters;
  * compatibility.
  * @author rapruitt
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class BufferedResponseWrapper13Impl extends HttpServletResponseWrapper implements BufferedResponseWrapper
 {

@@ -20,7 +20,7 @@ import org.displaytag.util.TagConstants;
 /**
  * @author epesh
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1172 $ ($Author: rapruitt $)
  */
 public abstract class TableDecorator extends Decorator
 {

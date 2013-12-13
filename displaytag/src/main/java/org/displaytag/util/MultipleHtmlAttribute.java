@@ -22,7 +22,7 @@ import org.apache.commons.lang.UnhandledException;
 /**
  * Object used to contain html multiple attribute value (for the "class" attribute).
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class MultipleHtmlAttribute implements Cloneable
 {

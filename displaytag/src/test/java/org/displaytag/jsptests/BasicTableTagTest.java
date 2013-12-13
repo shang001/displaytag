@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for basic displaytag functionalities.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1167 $ ($Author: rapruitt $)
  */
 public class BasicTableTagTest extends DisplaytagCase
 {

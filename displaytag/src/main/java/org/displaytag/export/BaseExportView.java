@@ -36,7 +36,7 @@ import org.displaytag.model.TableModel;
  * A class that extends BaseExportView simply need to provide delimiters for rows and columns.
  * </p>
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public abstract class BaseExportView implements TextExportView
 {

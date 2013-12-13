@@ -23,7 +23,7 @@ import org.apache.commons.lang.UnhandledException;
 /**
  * BeanInfo descriptor for the <code>ColumnTag</code> class..
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class ColumnTagBeanInfo extends SimpleBeanInfo
 {

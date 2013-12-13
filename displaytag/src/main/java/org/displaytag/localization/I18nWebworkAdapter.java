@@ -33,7 +33,7 @@ import com.opensymphony.xwork.util.OgnlValueStack;
  * Webwork implementation of a resource provider and locale resolver.
  * @author Richard HALLIER
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class I18nWebworkAdapter implements LocaleResolver, I18nResourceProvider
 {

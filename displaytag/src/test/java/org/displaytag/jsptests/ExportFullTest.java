@@ -15,7 +15,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for full list export.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1167 $ ($Author: rapruitt $)
  */
 public class ExportFullTest extends DisplaytagCase
 {

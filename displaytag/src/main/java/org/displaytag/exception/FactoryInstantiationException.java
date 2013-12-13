@@ -18,7 +18,7 @@ import org.displaytag.properties.TableProperties;
 /**
  * Exception thrown when displaytag is unable to instantiate a class specified by the user in the properties file.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class FactoryInstantiationException extends BaseNestableRuntimeException
 {

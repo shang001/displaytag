@@ -19,7 +19,7 @@ import org.displaytag.Messages;
  * Exception thrown when a required attribute is not set. This is thrown when the user is required to set at least one
  * of multiple attributes and the check can't be enforced by the tld.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class MissingAttributeException extends BaseNestableJspTagException
 {

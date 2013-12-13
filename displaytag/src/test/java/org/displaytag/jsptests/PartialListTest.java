@@ -16,7 +16,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Basic tests for pagination.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class PartialListTest extends DisplaytagCase
 {

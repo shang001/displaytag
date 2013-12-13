@@ -8,7 +8,7 @@ import org.junit.Assert;
 /**
  * Test case for org.displaytag.properties.MediaTypeEnum.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1163 $ ($Author: rapruitt $)
  */
 public class MediaTypeEnumTest extends TestCase
 {

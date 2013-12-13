@@ -15,7 +15,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for encoded uri.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class EncodedUriTest extends DisplaytagCase
 {

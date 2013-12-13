@@ -18,7 +18,7 @@ import org.displaytag.model.TableModel;
 /**
  * Export view for excel exporting.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class ExcelView extends BaseExportView
 {

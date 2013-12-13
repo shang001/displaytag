@@ -10,7 +10,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 /**
  * I18n test with Spring adapter.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class TitleKeySpringTest extends AbstractTitleKeyTest
 {

@@ -50,7 +50,7 @@ import org.displaytag.Messages;
  * will attempt to look up the <code>property</code> property in your ResourceBundle. Failing that, it will fall back
  * to the parent class's behavior of just using the property name.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class I18nJstlAdapter implements I18nResourceProvider, LocaleResolver
 {

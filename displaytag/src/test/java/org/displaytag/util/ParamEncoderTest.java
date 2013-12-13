@@ -8,7 +8,7 @@ import org.junit.Assert;
 /**
  * Tests for ParamEncoder.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ParamEncoderTest extends TestCase
 {

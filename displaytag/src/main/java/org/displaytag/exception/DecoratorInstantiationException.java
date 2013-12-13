@@ -19,7 +19,7 @@ import org.displaytag.util.TagConstants;
 /**
  * Exception thrown when DecoratorFactory is unable to load a Decorator.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class DecoratorInstantiationException extends BaseNestableJspTagException
 {

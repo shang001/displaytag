@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Test data provider. A list of 5 NumberedItems.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class KnownNumberedList
 {

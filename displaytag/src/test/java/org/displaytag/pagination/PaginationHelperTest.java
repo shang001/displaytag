@@ -26,7 +26,7 @@ import org.junit.Assert;
 
 /**
  * @author <a href="mailto:kevin.a.conaway@gmail.com">Kevin Conaway</a>
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1169 $ ($Author: rapruitt $)
  */
 public class PaginationHelperTest extends TestCase
 {

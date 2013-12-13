@@ -56,7 +56,7 @@ import org.displaytag.util.TagConstants;
  * <p>
  * @author mraible
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class ColumnTag extends BodyTagSupport implements MediaUtil.SupportsMedia
 {

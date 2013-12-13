@@ -50,7 +50,7 @@ import com.lowagie.text.pdf.PdfWriter;
  * probably will need to write a custom export class with a specific layout.
  * @author Ivan Markov
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class PdfView implements BinaryExportView
 {
@@ -247,7 +247,7 @@ public class PdfView implements BinaryExportView
     /**
      * Wraps IText-generated exceptions.
      * @author Fabrizio Giustina
-     * @version $Revision$ ($Author$)
+     * @version $Revision: 1160 $ ($Author: fgiust $)
      */
     static class PdfGenerationException extends BaseNestableJspTagException
     {

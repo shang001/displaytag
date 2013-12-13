@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-192 - add row style to current row from TableDecorator.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ192Test extends DisplaytagCase
 {

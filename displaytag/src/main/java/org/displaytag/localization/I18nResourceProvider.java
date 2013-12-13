@@ -21,7 +21,7 @@ import javax.servlet.jsp.tagext.Tag;
  * value of the <code>titleKey</code> attribute, <code>defaultValue</code> will be the value of the
  * <code>property</code> attribute. Different resource providers can be plugged using the displaytag.properties file.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public interface I18nResourceProvider
 {

@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * Utility methods for dealing with html tags.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public final class HtmlTagUtil
 {

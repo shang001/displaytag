@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for 1016089 - Param values not URLEncoded.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class EncodedParametersTest extends DisplaytagCase
 {

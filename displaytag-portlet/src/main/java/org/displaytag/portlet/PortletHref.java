@@ -68,7 +68,7 @@ import org.displaytag.util.Href;
  * </tr>
  * </table>
  * @author Eric Dalquist <a href="mailto:dalquist@gmail.com">dalquist@gmail.com</a>
- * @version $Id$
+ * @version $Id: PortletHref.java 999 2006-01-22 20:01:46Z fgiust $
  */
 public class PortletHref implements Href
 {

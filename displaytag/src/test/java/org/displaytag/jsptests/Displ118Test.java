@@ -15,7 +15,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-118 - Exception when requesting invalid page of paged table.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ118Test extends DisplaytagCase
 {

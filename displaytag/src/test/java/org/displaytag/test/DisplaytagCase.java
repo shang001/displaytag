@@ -20,7 +20,7 @@ import com.meterware.servletunit.ServletRunner;
 /**
  * Base TestCase class for tests.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public abstract class DisplaytagCase
 {

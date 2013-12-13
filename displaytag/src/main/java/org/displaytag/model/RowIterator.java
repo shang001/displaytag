@@ -22,7 +22,7 @@ import org.displaytag.decorator.TableDecorator;
 /**
  * Iterator on table rows.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class RowIterator
 {

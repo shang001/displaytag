@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Simple test data provider.
  * @author rapruitt
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1167 $ ($Author: rapruitt $)
  */
 public class KnownValue
 {

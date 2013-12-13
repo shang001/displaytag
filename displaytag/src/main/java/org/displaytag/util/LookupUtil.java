@@ -29,7 +29,7 @@ import org.displaytag.exception.ObjectLookupException;
 /**
  * Utility class with methods for object and properties retrieving.
  * @author Fabrizio Giustina
- * @version $Id$
+ * @version $Id: LookupUtil.java 1081 2006-04-03 20:26:34Z fgiust $
  */
 public final class LookupUtil
 {

@@ -18,7 +18,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for column decorators.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ExportDecoratedTest extends DisplaytagCase
 {

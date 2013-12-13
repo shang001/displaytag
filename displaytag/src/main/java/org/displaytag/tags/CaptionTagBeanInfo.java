@@ -23,7 +23,7 @@ import org.apache.commons.lang.UnhandledException;
 /**
  * Needed to make the "class" tag attribute working.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class CaptionTagBeanInfo extends SimpleBeanInfo
 {

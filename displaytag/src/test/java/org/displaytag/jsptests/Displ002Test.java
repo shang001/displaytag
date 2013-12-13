@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for DISPL-2 - Ability to use java var in id attribute in tabletag.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ002Test extends DisplaytagCase
 {

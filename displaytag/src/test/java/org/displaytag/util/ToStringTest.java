@@ -22,7 +22,7 @@ import org.junit.Assert;
  * Check that toString() methods are constructed appropriately, uses the correct style and that there aren't stupid NPE
  * bugs in them.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class ToStringTest extends TestCase
 {
@@ -67,7 +67,7 @@ public class ToStringTest extends TestCase
      */
     public void testPagination()
     {
-        checkToString(new Pagination(null, null, null));
+        checkToString(new Pagination(null, null, null, null));
     }
 
     /**

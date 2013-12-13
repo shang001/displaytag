@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for DISPL-145: check that pooled tags are not affected by the fix.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ145Test extends DisplaytagCase
 {

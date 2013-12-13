@@ -15,7 +15,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests removal of no-cache headers.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ExportHeadersTest extends DisplaytagCase
 {

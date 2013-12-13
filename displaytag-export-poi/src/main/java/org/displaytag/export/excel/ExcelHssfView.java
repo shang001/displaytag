@@ -21,7 +21,7 @@ import org.displaytag.model.TableModel;
  * Excel exporter using POI HSSF.
  * @author Fabrizio Giustina
  * @author rapruitt
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1166 $ ($Author: rapruitt $)
  */
 public class ExcelHssfView implements BinaryExportView
 {

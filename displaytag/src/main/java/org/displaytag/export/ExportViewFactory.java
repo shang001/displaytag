@@ -28,7 +28,7 @@ import org.displaytag.util.ReflectHelper;
 /**
  * Factory for export views.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public final class ExportViewFactory
 {

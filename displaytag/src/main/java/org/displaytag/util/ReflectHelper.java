@@ -14,7 +14,7 @@ package org.displaytag.util;
 /**
  * Utility method for reflection.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public final class ReflectHelper
 {

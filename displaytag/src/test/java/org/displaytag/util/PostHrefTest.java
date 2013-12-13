@@ -7,7 +7,7 @@ import org.displaytag.test.URLAssert;
 
 /**
  * @author fgiust
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1134 $ ($Author: fgiust $)
  */
 public class PostHrefTest extends TestCase
 {

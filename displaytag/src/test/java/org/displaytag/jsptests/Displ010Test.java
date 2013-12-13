@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for DISPL-10: using displaytag.properties and override with attributes.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ010Test extends DisplaytagCase
 {

@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Basic tests for pagination.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class PaginationAllItemsTest extends DisplaytagCase
 {

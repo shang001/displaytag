@@ -19,7 +19,7 @@ import org.displaytag.util.TagConstants;
 /**
  * Base tag which provides setters for all the standard html attributes.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public abstract class HtmlTableTag extends TemplateTag
 {

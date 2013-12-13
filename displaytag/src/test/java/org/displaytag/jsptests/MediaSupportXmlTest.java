@@ -17,7 +17,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for "media" attribute support.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class MediaSupportXmlTest extends DisplaytagCase
 {

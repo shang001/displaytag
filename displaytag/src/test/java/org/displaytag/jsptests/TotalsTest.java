@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebTable;
 
 /**
  * @author rapruitt
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class TotalsTest extends DisplaytagCase
 {

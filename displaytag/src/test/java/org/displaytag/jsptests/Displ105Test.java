@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for DISPL-105: https hrefs in Table get generated as http.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1169 $ ($Author: rapruitt $)
  */
 public class Displ105Test extends DisplaytagCase
 {

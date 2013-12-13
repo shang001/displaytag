@@ -20,7 +20,7 @@ import org.displaytag.render.TableTotaler;
 /**
  * Factory for TableDecorator or ColumnDecorator object.
  * @author Fabrizio Giustina
- * @version $Id$
+ * @version $Id: DecoratorFactory.java 1166 2011-04-22 18:05:06Z rapruitt $
  */
 public interface DecoratorFactory
 {

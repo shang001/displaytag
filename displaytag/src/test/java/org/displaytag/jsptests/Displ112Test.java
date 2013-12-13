@@ -17,7 +17,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-112 - Allow requestURI with only parameters.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ112Test extends DisplaytagCase
 {

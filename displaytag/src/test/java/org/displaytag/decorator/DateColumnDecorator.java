@@ -12,7 +12,7 @@ import org.displaytag.properties.MediaTypeEnum;
 /**
  * A test column decorator for dates.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class DateColumnDecorator implements DisplaytagColumnDecorator
 {

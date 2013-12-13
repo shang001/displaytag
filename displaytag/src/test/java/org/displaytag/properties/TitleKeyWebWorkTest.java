@@ -11,7 +11,7 @@ import com.opensymphony.webwork.dispatcher.ServletDispatcher;
 /**
  * I18n test with WebWork adapter.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class TitleKeyWebWorkTest extends AbstractTitleKeyTest
 {

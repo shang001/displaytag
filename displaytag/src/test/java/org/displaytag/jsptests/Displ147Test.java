@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Test for DISPL-147.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ147Test extends DisplaytagCase
 {

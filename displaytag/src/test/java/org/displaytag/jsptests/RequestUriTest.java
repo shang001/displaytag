@@ -17,7 +17,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for requestUri column attribute.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class RequestUriTest extends DisplaytagCase
 {

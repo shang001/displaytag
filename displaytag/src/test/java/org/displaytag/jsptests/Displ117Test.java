@@ -17,7 +17,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-117 - Allow ColumnTag to generate links to current page.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ117Test extends DisplaytagCase
 {

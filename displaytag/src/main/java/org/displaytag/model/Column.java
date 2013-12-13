@@ -33,7 +33,7 @@ import org.displaytag.util.TagConstants;
 /**
  * Represents a column in a table.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1092 $ ($Author: rapruitt $)
  */
 public class Column
 {

@@ -12,7 +12,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for DISPL-9 - Send user back to Page 1 on Desc/Asc.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ009Test extends DisplaytagCase
 {

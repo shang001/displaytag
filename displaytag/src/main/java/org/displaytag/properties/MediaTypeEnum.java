@@ -21,7 +21,7 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 /**
  * Enumeration for media types.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1163 $ ($Author: rapruitt $)
  */
 public final class MediaTypeEnum
 {

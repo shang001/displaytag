@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Tests for export filter.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class ExportFilterErrorTest extends DisplaytagCase
 {

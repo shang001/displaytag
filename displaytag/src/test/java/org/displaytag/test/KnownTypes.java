@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * Simple test data provider.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class KnownTypes
 {

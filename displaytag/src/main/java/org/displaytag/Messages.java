@@ -19,7 +19,7 @@ import java.util.ResourceBundle;
 /**
  * Helper class for message bundle access.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public final class Messages
 {

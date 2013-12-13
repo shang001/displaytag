@@ -15,7 +15,7 @@ import com.meterware.httpunit.WebRequest;
 /**
  * Test for #968559.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class DisabledMediaTest extends DisplaytagCase
 {

@@ -17,7 +17,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-208 - Column level default sort order.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ208Test extends DisplaytagCase
 {

@@ -30,7 +30,7 @@ import org.displaytag.tags.TableTagParameters;
  * Actually writes out the content of the wrapped response. Used by the j2ee filter and the Spring interceptor
  * implementations.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public final class ExportDelegate
 {

@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-161 - "null" still displayed even when nulls="false".
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ161Test extends DisplaytagCase
 {

@@ -20,7 +20,7 @@ import org.displaytag.Messages;
  * An user-friendly dependency checker. This will check the presence of libraries needed by displaytag, throwing an
  * Exception with an informative message if the library is missing or the version is not compatible.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public final class DependencyChecker
 {

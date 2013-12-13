@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-305 - NPE when row css class is not set.
  * @author Fabrizio Giustina
- * @version $Id$
+ * @version $Id: Displ305Test.java 1159 2008-12-30 18:34:44Z fgiust $
  */
 public class Displ305Test extends DisplaytagCase
 {

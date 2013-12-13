@@ -8,7 +8,7 @@ import org.junit.Assert;
 /**
  * Test case for org.displaytag.tags.TableTagExtraInfo.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class TableTagExtraInfoTest extends TestCase
 {

@@ -64,7 +64,7 @@ import org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter;
  * @author Keith Garry Boyce
  * @author rapruitt
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class DisplayTagSpringInterceptor implements HandlerInterceptor
 {

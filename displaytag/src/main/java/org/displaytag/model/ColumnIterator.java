@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * Iterator on columns.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class ColumnIterator
 {

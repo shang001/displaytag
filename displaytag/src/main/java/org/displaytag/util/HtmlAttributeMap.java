@@ -20,7 +20,7 @@ import java.util.Set;
 /**
  * Extends Map providing only a different toString() method which can be used in printing attributes inside an html tag.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class HtmlAttributeMap extends HashMap
 {

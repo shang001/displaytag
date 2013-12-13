@@ -14,7 +14,7 @@ package org.displaytag.exception;
 /**
  * Basic wrapper for checked exceptions.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class WrappedRuntimeException extends BaseNestableRuntimeException
 {

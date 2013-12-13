@@ -17,7 +17,7 @@ import org.displaytag.Messages;
 /**
  * Exception thrown for errors in accessing bean properties.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class ObjectLookupException extends BaseNestableJspTagException
 {

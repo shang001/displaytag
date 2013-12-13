@@ -31,7 +31,7 @@ import org.displaytag.util.TagConstants;
  * DataObject representing the column header. The header cell contains all the properties common to cells in the same
  * column.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class HeaderCell
 {

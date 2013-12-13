@@ -12,7 +12,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for DISPL-26 - More params for paging.banner.*_items_found.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ026Test extends DisplaytagCase
 {

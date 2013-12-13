@@ -2,7 +2,7 @@ package org.displaytag.test;
 
 /**
  * @author fgiust
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1134 $ ($Author: fgiust $)
  */
 public class KnownValueWithId extends KnownValue
 {

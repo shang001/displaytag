@@ -31,7 +31,7 @@ import org.displaytag.Messages;
 /**
  * Default RequestHelper implementation.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  * @see org.displaytag.util.Href
  * @see org.displaytag.util.RequestHelper
  */

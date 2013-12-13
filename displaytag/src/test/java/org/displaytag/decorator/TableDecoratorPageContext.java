@@ -3,7 +3,7 @@ package org.displaytag.decorator;
 /**
  * Test decorator used in tests.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1084 $ ($Author: fgiust $)
  */
 public class TableDecoratorPageContext extends TableDecorator
 {

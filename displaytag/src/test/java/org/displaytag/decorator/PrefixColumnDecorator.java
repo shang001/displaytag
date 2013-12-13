@@ -9,7 +9,7 @@ import org.displaytag.properties.MediaTypeEnum;
 /**
  * A column decorator which adds a "decorated: " prefix.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class PrefixColumnDecorator implements DisplaytagColumnDecorator
 {

@@ -19,7 +19,7 @@ import javax.servlet.ServletOutputStream;
 /**
  * A simple implementation of ServletOutputStream which wraps a ByteArrayOutputStream.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class SimpleServletOutputStream extends ServletOutputStream
 {

@@ -27,7 +27,7 @@ import org.apache.struts.util.MessageResources;
  * Struts implementation of a resource provider and locale resolver. Uses Struts
  * <code>RequestUtils.getUserLocale()</code> and <code>TagUtils.message()</code> for the lookup.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class I18nStrutsAdapter implements I18nResourceProvider, LocaleResolver
 {

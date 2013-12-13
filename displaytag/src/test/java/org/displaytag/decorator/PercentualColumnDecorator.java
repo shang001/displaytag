@@ -10,7 +10,7 @@ import org.displaytag.properties.MediaTypeEnum;
 /**
  * A column decorator which returns 100/value with padding of spaces.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class PercentualColumnDecorator implements DisplaytagColumnDecorator
 {

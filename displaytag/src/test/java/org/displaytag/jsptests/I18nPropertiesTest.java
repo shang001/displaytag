@@ -12,7 +12,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Verify that the TableProperties will show values from the proper locale.
  * @author rapruitt
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class I18nPropertiesTest extends DisplaytagCase
 {

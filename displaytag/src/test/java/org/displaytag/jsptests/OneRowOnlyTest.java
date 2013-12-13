@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * A table with a single row.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class OneRowOnlyTest extends DisplaytagCase
 {

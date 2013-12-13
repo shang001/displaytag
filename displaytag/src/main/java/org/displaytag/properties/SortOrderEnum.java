@@ -21,7 +21,7 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 /**
  * Enumeration for sort order.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public final class SortOrderEnum implements Serializable
 {

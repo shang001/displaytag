@@ -17,7 +17,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for DISPL-107: Excel and Text exports use Windows Latin-1 encoding.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ107Test extends DisplaytagCase
 {

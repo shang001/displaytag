@@ -77,7 +77,7 @@ import org.displaytag.tags.TableTagParameters;
  * 
  * @author rapruitt
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class ResponseOverrideFilter implements Filter
 {

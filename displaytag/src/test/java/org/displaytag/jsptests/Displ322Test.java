@@ -13,7 +13,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-322 - Decorator pageContext is null.
  * @author Fabrizio Giustina
- * @version $Id$
+ * @version $Id: Displ322Test.java 1159 2008-12-30 18:34:44Z fgiust $
  */
 public class Displ322Test extends DisplaytagCase
 {

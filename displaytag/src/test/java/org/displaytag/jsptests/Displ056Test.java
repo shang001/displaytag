@@ -16,7 +16,7 @@ import com.meterware.httpunit.WebTable;
  * Tests for DISPL-56 - unable to dinamically generate multiple tables on the same page with indipendent sorting
  * (different id).
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class Displ056Test extends DisplaytagCase
 {

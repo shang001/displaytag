@@ -15,7 +15,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Simple nested tables.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1159 $ ($Author: fgiust $)
  */
 public class NestedTest extends DisplaytagCase
 {

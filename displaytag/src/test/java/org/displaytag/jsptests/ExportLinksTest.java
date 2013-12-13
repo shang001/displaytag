@@ -16,7 +16,7 @@ import com.meterware.httpunit.WebResponse;
 /**
  * Tests for "media" attribute support.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class ExportLinksTest extends DisplaytagCase
 {

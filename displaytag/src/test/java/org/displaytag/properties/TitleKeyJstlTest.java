@@ -8,7 +8,7 @@ import org.displaytag.localization.LocaleResolver;
 /**
  * I18n test with JSTL adapter.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class TitleKeyJstlTest extends AbstractTitleKeyTest
 {

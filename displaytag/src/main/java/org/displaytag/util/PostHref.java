@@ -13,7 +13,7 @@ import org.apache.commons.lang.UnhandledException;
 
 /**
  * @author fgiust
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class PostHref implements Href
 {

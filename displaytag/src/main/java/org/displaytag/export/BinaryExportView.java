@@ -20,7 +20,7 @@ import javax.servlet.jsp.JspException;
 /**
  * Main interface for exportViews which need to output binary data.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public interface BinaryExportView extends ExportView
 {

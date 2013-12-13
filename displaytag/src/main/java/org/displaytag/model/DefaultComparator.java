@@ -19,7 +19,7 @@ import java.util.Comparator;
  * Default comparator. Was previously part of RowSorter.
  * @author fguist
  * @author rapruitt
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1161 $ ($Author: rapruitt $)
  */
 public class DefaultComparator implements Comparator
 {

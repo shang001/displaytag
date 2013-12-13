@@ -23,7 +23,7 @@ import org.displaytag.util.TagConstants;
  * This takes the string that is passed in, and "auto-links" it, it turns email addresses into hyperlinks, and also
  * turns things that looks like URLs into hyperlinks as well.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class AutolinkColumnDecorator implements DisplaytagColumnDecorator
 {

@@ -14,7 +14,7 @@ import com.meterware.httpunit.WebTable;
 /**
  * Test for DISPL-052 - Support for checkboxes.
  * @author Fabrizio Giustina
- * @version $Id$
+ * @version $Id: Displ052Test.java 1159 2008-12-30 18:34:44Z fgiust $
  */
 public class Displ052Test extends DisplaytagCase
 {

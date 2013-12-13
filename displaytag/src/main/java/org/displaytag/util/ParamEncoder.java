@@ -17,7 +17,7 @@ import java.io.Serializable;
 /**
  * Simple utility class for encoding parameter names.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class ParamEncoder implements Serializable
 {

@@ -26,7 +26,7 @@ import org.displaytag.util.MediaUtil;
  * Display a table footer. Html only, not included in export.
  * @author Fabrizio Giustina
  * @author rapruitt
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1160 $ ($Author: fgiust $)
  */
 public class TableFooterTag extends BodyTagSupport implements MediaUtil.SupportsMedia
 {

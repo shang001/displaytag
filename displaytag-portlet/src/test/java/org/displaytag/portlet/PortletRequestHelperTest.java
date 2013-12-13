@@ -22,7 +22,7 @@ import org.springframework.mock.web.portlet.MockRenderResponse;
 
 /**
  * @author Eric Dalquist <a href="mailto:edalquist@unicon.net">edalquist@unicon.net</a>
- * @version $Id$
+ * @version $Id: PortletRequestHelperTest.java 943 2005-12-26 22:36:54Z fgiust $
  */
 public class PortletRequestHelperTest extends TestCase
 {

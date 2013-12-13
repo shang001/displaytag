@@ -18,7 +18,7 @@ import org.apache.commons.lang.builder.ToStringStyle;
 /**
  * Object representing a page.
  * @author Fabrizio Giustina
- * @version $Revision$ ($Author$)
+ * @version $Revision: 1081 $ ($Author: fgiust $)
  */
 public class NumberedPage
 {
