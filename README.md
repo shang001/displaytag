@@ -39,7 +39,7 @@ repository is then saved.
 - `git for-each-ref --format='%(refname)' refs/heads/tags | cut -d / -f 4 | while read ref;`
 - `do git tag "$ref" "refs/heads/tags/$ref"; git branch -D "tags/$ref"; done`
 
-### How did I pushed the repository on Github?
+### How did I push the repository on Github?
 
 I used Eclipse + m2e plugin for Maven.
 
